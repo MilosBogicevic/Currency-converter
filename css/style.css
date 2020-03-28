@@ -1,0 +1,60 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #f4f4f4;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+h1 {
+  color: #1891d6;
+}
+
+/* Font Awesome icon */
+.fas {
+  padding-bottom: 40px;
+  color: #1891d6;
+}
+
+/* Button */
+.btn {
+  color: #fff;
+  background-color: #1891d6;
+  border-radius: 5px;
+  padding: 10px 35px;
+  cursor: pointer;
+  outline: none;
+  font-size: 20px;
+  margin-left: 20px;
+}
+
+.currency {
+  padding: 20px 0;
+  margin: 0 20px;
+  display: flex;
+  align-items: center;
+}
+
+/* Currency Option Select */
+.currency select {
+  padding: 10px 25px;
+  border: 1px solid #dedede;
+  outline: none;
+  font-size: 20px;
+}
+
+/* Input */
+.currency input {
+  width: 100%;
+  outline: none;
+  font-size: 35px;
+  text-align: right;
+  border: 1px solid #fff;
+}
