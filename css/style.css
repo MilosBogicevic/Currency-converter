@@ -58,3 +58,14 @@ h1 {
   text-align: right;
   border: 1px solid #fff;
 }
+
+/* Mozilla red box-shadow remove */
+input:invalid {
+  box-shadow: none;
+}
+
+/* Margin between input numbers and spin buttons */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  margin-left: 10px;
+}
